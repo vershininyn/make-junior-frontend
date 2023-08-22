@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "GraphikLCG";
+
+    src: url("/fonts/GraphikLCG/Graphik-Regular-Web.eot"); /* +++ IE9*/
+    src: url("/fonts/GraphikLCG/Graphik-Regular-Web.eot?#iefix") format("embedded-opentype"), /* +++ IE6-IE8 */
+
+    url("/fonts/GraphikLCG/Graphik-Regular-Web.woff2") format("woff2"), /* +++ chrome、firefox */
+    url("/fonts/GraphikLCG/Graphik-Regular-Web.woff") format("woff"), /* +++ chrome、firefox */
+    url("/fonts/GraphikLCG/Graphik-Regular-Web.ttf") format("truetype"), /* +++ chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("/fonts/GraphikLCG/Graphik-Regular-Web.svg#GraphikLCG") format("svg"); /* +++ iOS 4.1- */
+
+    src: local('Graphik LCG'), local('GraphikLCG');
+
+    font-weight:normal;
+    font-style:normal
+}
