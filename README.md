@@ -9,13 +9,5 @@ The job test task from Make
 2. Configure it.
 
 
-# vue-make
-
-## Project setup
-```
-yarn install
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# make-vue
 

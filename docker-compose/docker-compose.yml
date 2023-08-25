@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  make-frontend-vue-test-task:
+    build: .
+    image: make-frontend-vue-test-task
+#    environment:
+#    ports:
+#      - "8080:8080"
