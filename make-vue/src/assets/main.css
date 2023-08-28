@@ -2,19 +2,21 @@
 
 @import './base.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-
-  font-weight: normal;
-}
-
-a,
+/*a,
 .green {
   text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
+}*/
+
+#app {
+  max-width: 1312px;
+  margin: 0 auto;
+  padding: 1rem;
+
+  display: grid;
+  place-items: center;
+  grid-template-columns: 3fr 1fr 10fr 1fr 3fr;
 }
 
 // Extra small devices (portrait phones, less than 576px)
@@ -33,30 +35,44 @@ a,
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) {
+  #app {
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    padding: 1rem;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 100px;
+
+    grid-template-areas: "head head2 head3 head4" "main main2 main3 main4";
+  }
+
 
 }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-
-}
-
-@media (hover: hover) {
+/*@media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
   }
+}*/
+
+body {
+  display: flex;
+  place-items: center;
 }
 
 @media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
   #app {
+    max-width: 1312px;
+    margin: 0 auto;
+    padding: 1rem;
+
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    place-items: center;
+
+    grid-template-columns: 3fr 1fr 10fr 1fr 3fr;
+    grid-template-rows: 100px 200px 100px;
+    grid-template-areas: "head head2 head3 head4" "main main2 main3 main4";
   }
 }

@@ -62,7 +62,7 @@
   font-weight: normal;
 }
 
-body {
+* {
   min-height: 100vh;
   color: var(--color-text);
   background: var(--color-background);
@@ -70,7 +70,6 @@ body {
   line-height: 1.6;
 
   font-family:'GraphikLCG';
-  font:inherit !important;
 
   font-size: 15px;
   text-rendering: optimizeLegibility;
