@@ -17,7 +17,7 @@
   <v-container>
   </v-container>
 
-  <v-container fluid="true">
+  <v-container fluid>
     <v-row>
       <v-col>
         <v-sheet>
@@ -38,8 +38,6 @@
       </v-col>
   </v-container>
 </template>
-
-//3fr 1fr 10fr 1fr 3fr
 
 <script>
 
