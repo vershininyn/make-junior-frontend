@@ -1,42 +1,6 @@
 <template>
-  <v-container fluid>
-    <v-row no-gutters>
-      <v-col
-        v-for="n in 3"
-        :key="n"
-        cols="12"
-        sm="4"
-      >
-        <v-sheet class="ma-2 pa-2">
-          One of three columns
-        </v-sheet>
-      </v-col>
-    </v-row>
-  </v-container>
-
-  <v-container>
-  </v-container>
-
-  <v-container fluid>
-    <v-row>
-      <v-col>
-        <v-sheet>
-          One of three columnsOne of three columnsOne of three columnsOne of three columnsOne of three columns
-        </v-sheet>
-      </v-col>
-    </v-row>
-  </v-container>
-
-  <v-container>
-  </v-container>
-
-  <v-container fluid>
-      <v-col>
-          <v-row v-for="n in 3" :key="n">
-            One of three columns
-          </v-row>
-      </v-col>
-  </v-container>
+    <v-col>
+    </v-col>
 </template>
 
 <script>
@@ -48,4 +12,5 @@ export default {
     //
   }),
 }
+
 </script>
